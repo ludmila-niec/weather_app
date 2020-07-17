@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 238, 238);
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+}
+
+p,
+h2,
+h3 {
+    font-weight: 100;
+}
+.regular {
+    font-weight: 100;
+}
+
+.container {
+    width: 30vw;
+    height: 80vh;
+    background-color: rgb(8, 25, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.fecha {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.lugar {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.provincia {
+    text-align: center;
+}
+
+.temperatura {
+    font-weight: 300;
+    font-size: 5rem;
+    margin: 1.5rem 0 1rem;
+}
+
+.informacion {
+    text-align: center;
+}
+
+.icon {
+    font-size: 2rem;
+    opacity: 60%;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding: 0.5rem 1.5rem;
+    margin: 2rem 0 1rem;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.detalles {
+    margin-top: 1.5rem;
+}
+.detalles > p {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.despejado {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.cubierto {
+    background-image: linear-gradient(to left, #bdbbbe 0%, #9d9ea3 100%),
+        radial-gradient(
+            88% 271%,
+            rgba(255, 255, 255, 0.25) 0%,
+            rgba(254, 254, 254, 0.25) 1%,
+            rgba(0, 0, 0, 0.25) 100%
+        ),
+        radial-gradient(
+            50% 100%,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(0, 0, 0, 0.3) 100%
+        );
+    background-blend-mode: normal, lighten, soft-light;
+}
+
+.nublado {
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
